@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Ensure body and html take full width */
+  html, body {
+    font-family: 'Google Sans';
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  
